@@ -67,7 +67,7 @@ create_user!(user attributes)
 reload_user
 
 
-So by adding the :belongs_to macro to workouts we can now call the method 'workout.user' or we can create and simultaneously associate a user by using 'creaue_user' and passing in the user attibutes.  Without these macros we would be forced to write each of these methods for each model that belongs to another model.  This is very repetitive and not very DRY. 
+So by adding the :belongs_to macro to workouts we can now call the method 'workout.user' or we can create and simultaneously associate a user by using 'create_user' and passing in the user attibutes.  Without these macros we would be forced to write each of these methods for each model that belongs to another model.  This is very repetitive and not very DRY. 
 
 In addition, when a model belongs to another model, the first model has an id that corresponds to it's parent model id.  So in this case the workout must have a user_id in it's database to make the associations valid. The user_id in the workouts database is a foreign key and it points to the primary key (or id) of the user in the users database.
 
