@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Iterating In Ruby"
-date:       2018-03-26 18:40:23 +0000
+date:       2018-03-26 14:40:24 -0400
 permalink:  iterating_in_ruby
 ---
 
@@ -25,7 +25,7 @@ end
 ```
 Now, let's break down what's happening here. I'm using the iterator 'each' on my_array. The word 'do' begins my block, or the block of  instructions that I want to perform on 'each' element in the array. The word 'end' completes the block. So everything within the block will be applied to the elements of the array. 
 
-The |item| is the element of the array being passed into the block. So, first, |item| will be 'car' and 'car' will be passed in the block and the block will determine its length. The next |item| is 'train' which will be passed into the block and have the .length method performed on it. Finally, 'airplane' is the |item| and this will be passed into the block and have the .length method applied.  The output (using the "puts" method) will be the length of each item in my_array, 3, 5, and 8. Now this may not seem important or even useful for such a small array. However, once you're dealing with arrays containg thousands of items, using iterators becomes indespensible.
+The 'item' is the element of the array being passed into the block. So, first, 'item' will be 'car' and 'car' will be passed in the block and the block will determine its length. The next 'item' is 'train' which will be passed into the block and have the .length method performed on it. Finally, 'airplane' is the 'item' and this will be passed into the block and have the .length method applied.  The output (using the "puts" method) will be the length of each item in my_array, 3, 5, and 8. Now this may not seem important or even useful for such a small array. However, once you're dealing with arrays containg thousands of items, using iterators becomes indespensible.
 
 There are several different iterators in Ruby that can be used in this way with very different outcomes.The purpose, though, is the same.  To perform identical functions over large collections of data.
 
