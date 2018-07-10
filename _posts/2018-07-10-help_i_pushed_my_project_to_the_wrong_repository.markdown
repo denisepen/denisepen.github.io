@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "HELP! I pushed my project to the wrong repository!!!"
-date:       2018-07-10 19:28:12 +0000
+date:       2018-07-10 15:28:13 -0400
 permalink:  help_i_pushed_my_project_to_the_wrong_repository
 ---
 
@@ -56,7 +56,7 @@ So, two lessons here:
 
 Luckily,  both files were exactly the same so it wasn't too much of a problem to fix but it was still a headache.  I had to roll back the parent's location to where it was before my mistake:  
 
-Using `git log` will give you a list of all the projects commits.  Find the ID of the commit you want to go back to and type `git reset --hard <Your-Commit-ID>` .  At this point your parent is fixed.
+Using `git log` will give you a list of all the projects commits.  Find the ID of the commit you want to go back to and type `git reset --hard <Your-Commit-ID>`.  At this point your parent is fixed.
 	
 	
 This was a great learning experience but it just added to my paranoia about using git.  What mistakes have you made while using git? Do you also look like this before preparing to do something new with git?
