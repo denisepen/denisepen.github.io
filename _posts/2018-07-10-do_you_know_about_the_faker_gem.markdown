@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Do You Know About The Faker Gem?"
-date:       2018-07-10 19:55:55 +0000
+date:       2018-07-10 15:55:56 -0400
 permalink:  do_you_know_about_the_faker_gem
 ---
 
@@ -20,7 +20,7 @@ User.create!(first_name:  "Denise",
 But I found this great new gem that can automate the creation of new objects for your seed file.  [The Faker gem](https://github.com/stympy/faker).   You can use it to create all sorts of things. A few examples are names, music, movies, food and so many other things.  I used it in my project to create a list of users for my User model:
 
 ```
-User.create!(10.times do |n|
+10.times do |n|
   first_name  = Faker::Name.first_name
   last_name  = Faker::Name.last_name
   email = "#{first_name}_#{n+1}@gmail.org"
