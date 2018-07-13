@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "HELP! I pushed my project to the wrong repository!!!"
+title:      "HELP! I Pushed My Project To The Wrong Repository!!!"
 date:       2018-07-10 15:28:13 -0400
 permalink:  help_i_pushed_my_project_to_the_wrong_repository
 ---
