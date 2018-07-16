@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails Project: Chez Denise"
-date:       2018-07-16 20:57:05 +0000
+date:       2018-07-16 16:57:05 -0400
 permalink:  rails_project_chez_denise
 ---
 
@@ -10,11 +10,11 @@ For my rails project I created a website for a restaurant called Chez Denise. A 
 
 ![](https://i.imgur.com/qs6tJLy.png)
 
-I have five differnt models: User, Trip, Order, Meal, and Review. 
+I have five different models: User, Trip, Order, Meal, and Review. 
 
 The reason I chose this as my project is because I wanted to build something that can actually be used in the real world, as well as something that I can continue to work on and update over time as my skillset grows.
 
-A User has many trips(to the restaurant) and also has many reviews.  A trip belongs to a user, has many orders and has many meals through orders. The Order model creates the join between the meal and the trip and also has an order date.  A meal has many orders and has many trips through meals.  
+A User has many Trips(to the restaurant) and also has many Reviews.  A Trip belongs to a user, has many Orders and has many Meals through Orders. The Order model creates the join between the Meal and the Trip and also has an Order date.  A Meal has many Orders and has many Trips through Orders.  
 
 
 When I initially built this I only had 3 models, User, Order, and Meals.  However, I quickly realized that in order to keep track of every visit a User makes to the restaurant I would need another model, a Trip model. This allows me to group the number of Meals ordered on each Trip a User makes to the restaurant.  So, in case a User makes three Trips to the restaurant in a day, I can aggregate the Meals ordered for each Trip.  I can keep track of every single visit, every order placed, and every Meal per Trip.
