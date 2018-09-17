@@ -76,9 +76,7 @@ export default (props) => {
         options={{
           layout:{
             padding:{
-              left: 50
-            }
-          },
+              left: 50 }},
           toolTips:{
             enabled: true
           },
