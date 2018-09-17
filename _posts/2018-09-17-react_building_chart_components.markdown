@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "React: Building Chart Components"
-date:       2018-09-17 18:10:01 +0000
+date:       2018-09-17 14:10:02 -0400
 permalink:  react_building_chart_components
 ---
 
@@ -76,7 +76,7 @@ export default (props) => {
         options={{
           layout:{
             padding:{
-              left: 50,
+              left: 50
             }
           },
           toolTips:{
