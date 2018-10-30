@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My First Technical Interview"
-date:       2018-10-30 22:52:08 +0000
+date:       2018-10-30 18:52:08 -0400
 permalink:  my_first_technical_interview
 ---
 
@@ -13,11 +13,11 @@ After the interview was complete the interviewer took 10 minutes to critique my 
 
 Here are some of the take aways from this expereince:
 
-**1. Be prepared to answer everything about the language you're interviewing in.  **
+**1. Be prepared to answer everything about the language you're interviewing in.**
 
 There were several rapid fire questions about javascript and its frameworks.  I was asked to give definitions about things like closures, callback functions, lexical scope, hoisting, the differences between var, let, and const and many other basic JS terms that everyone should be familiar with.  Luckily, I didnt have any problem with the definitions because the Flatiron curriculum thoroughly covered all of this.  However, the feedback that I received was that my definitions were too verbose. In a real interview try to keep your answer to 1-2 sentences. 
 
-**2. If you mention anything in you interview be prepared to discuss it thoroughly.  **
+**2. If you mention anything in you interview be prepared to discuss it thoroughly.**
 
 When the interviewer asked me about the projects that I had worked on I mentioned that I had just built a project in React.  This allowed him to move the interview from a discussion of JS to a discussion of React.  He then began asking me several deeply technical questions about React to gauge my understanding of it.  His feedback to me was that whatever technical topic is mentioned in the interview is fair game. Be prepared to discuss in technical detail everything that you have worked on.  Also, if you bring up any topic during the interview be prepared to cover it.
 
