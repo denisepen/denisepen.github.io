@@ -7,7 +7,7 @@ copyright_name: Denise Pendleton-Lipinski
 description: > # this means to ignore newlines until "baseurl:"
   One woman's quest to tackle computer programming one concept at a time
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: 
+twitter_username: Denise_PL
 github_username:  denisepen
 
 # Build settings
