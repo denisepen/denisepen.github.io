@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Tackling Algorithms: Counting Unique Values"
-date:       2019-02-04 01:05:58 +0000
+date:       2019-02-03 20:05:59 -0500
 permalink:  tackling_algorithms_counting_unique_values
 ---
 
@@ -44,7 +44,7 @@ function countUniqueValues(arr){
 }
 ```
 
-Running **countUniqueValues([3,3,3,4,4,4,5,5,5,5,5,6])** returns 4. because there are 3 unique values => 3, 4, 5, and 6.
+Running **countUniqueValues([3,3,3,4,4,4,5,5,5,5,5,6])** returns 4. because there are 4 unique values => 3, 4, 5, and 6.
 
 If we want to see the value of newObj at the end of the function we can put *console.log(newObj) before the final return:
 ```
