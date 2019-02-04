@@ -144,7 +144,7 @@ function countUniqueValues(arr) {
 }
 ```
 
-As you can see, the second solution to this problem only runs through the array once and there was no need to create an additional object or count the number of keys of that object so this second solution is much more efficient than the first.  Although both solutions should have time complexity of O(n), the second solution is an improvement when it comes to space cmplexity.
+As you can see, the second solution to this problem only runs through the array once and there was no need to create an additional object or count the number of keys of that object so this second solution is much more efficient than the first.  Although both solutions should have time complexity of O(n), the second solution is an improvement when it comes to space complexity.
 
 How would you approach this problem?
  
