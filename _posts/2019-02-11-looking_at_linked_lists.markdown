@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Looking At Linked Lists"
-date:       2019-02-11 15:10:34 +0000
+date:       2019-02-11 10:10:35 -0500
 permalink:  looking_at_linked_lists
 ---
 
@@ -27,7 +27,7 @@ For example, to find node 4 we must start at node 1, move to node 2, then node 3
 
 This is very different from an array where each value can be found by using it's index, or a dictionary (hash/object) where a value can be found using it's key.
 
-One benefit of a linked list is that you can add a node to the beginning of a linked list using constant time (O(1)). This means that subsequent nodes do not need to be re-indexed as they do in an array.  The newest node simly becomes the "head" of the linked list.
+One benefit of a linked list is that you can add a node to the beginning of a linked list using constant time (O(1)). This means that subsequent nodes do not need to be re-indexed as they do in an array.  The newest node simply becomes the "head" of the linked list.
 
 ![Imgur](https://i.imgur.com/puV3Ehl.png)
 
