@@ -1,13 +1,13 @@
 # Site settings
-author: Denise Pendleton-Lipinski
+author: Systems Eng.
 title: On A Quest
 header-img: img/home-bg.png
 email: dpendl1@hotmail.com
-copyright_name: Denise Pendleton-Lipinski
+copyright_name: Systems Eng.
 description: > # this means to ignore newlines until "baseurl:"
-  One woman's quest to tackle computer programming one concept at a time
+  Tackling computer programming one concept at a time
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: Denise_PL
+twitter_username: 
 github_username:  denisepen
 
 # Build settings
